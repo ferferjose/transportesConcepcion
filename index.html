@@ -7,6 +7,7 @@
     <title>Transportes Concepción</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -29,19 +30,19 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                    <a class="nav-link dropdown-toggle" href="#ourActivity" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Nuestra actividad
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#whoWeAre">¿Quienes somos?</a></li>
+                        <li><a class="dropdown-item" href="#ourShip">Nuestra flota</a></li>
+                        <li><a class="dropdown-item" href="#gallery">Galería</a></li>
                     </ul>
                     </li>
 
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +50,7 @@
     </nav>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="mb-5">
             <div></div>
             <h1>Transportes Concepción</h1>
             <p>Empresa familiar con más de 30 años de experiencia en transporte por carretera. Ofrecemos servicios con góndolas y tauliners a nivel nacional.</p>
@@ -58,30 +59,27 @@
             </a>
         </section>
 
-        <section>
-            <h2>Nuestra actividad</h2>
-            <article>
-                <h3>¿Quiénes somos?</h3>
+        <section class="container">
+            <h2 class="mb-3" id="ourActivity">Nuestra actividad</h2>
+            <article class="mb-4">
+                <h3 id="whoWeAre">¿Quiénes somos?</h3>
                 <p>
                     Transporte Mejías es una empresa familiar con más de 30 años de experiencia en el transporte por carretera. Fundada en 1994, llevamos décadas ofreciendo soluciones de logística y transporte adaptadas a las necesidades de cada cliente.
                 </p>
             </article>
-            <article>
-                <h3>Nuestra flota</h3>
+            <article class="mb-4">
+                <h3 id="ourShip">Nuestra flota</h3>
                 <p>
                     Contamos con una flota de camiones nuevos, equipados con una teología en seguridad y eficiencia, para garantizar un servicio.
                 </p>
-                <div>
-                    Imágenes
-                </div>
             </article>
-            <article>
+            <article class="mb-4">
                 <h3>Compromiso por el cliente</h3>
                 <p>
                     Trabajamos con cercanía, profesionalidad y un alto compromiso con nuestros clientes, asegurando la mejor atención y respuesta en cada envío.
                 </p>
             </article>
-            <article>
+            <article class="mb-4">
                 <h3>Cobertura Nacional</h3>
                 <p>
                     En Transporte Mejías ofrecemos servicio de transporte por carretera a nivel nacional. Operamos en toda la península, adaptándonos a las necesidades logísticas de cada cliente, ya sea para servicios puntuales o programados.
@@ -90,36 +88,72 @@
                     Contamos con la flexibilidad y experiencia necesarias para realizar entregas seguras y puntuales en cualquier punto del país.
                 </p>
             </article>
-            <article>
-                <h3>Galería</h3>
-                <div>
-                    Imágenes
+            <article class="mb-4">
+                <h3 id="gallery">Galería</h3>
+                <div class="px-3 mx-auto">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/camionNieve2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/camionNieve.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/camionDeFrente.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/camionDeFrente22.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/tresCamiones.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
+
             </article>
         </section>
-        <section>
+        <section class="container">
             <h2>Contacto</h2>
-            <p class="contact-title">strongTeléfono</p>
-            <p></p>
-            <p class="contact-title">Correo electrónico</p>
-            <p></p>
-            <p class="contact-title">Ubicación</p>
-            <p></p>
+            <p class="contact-title px-2 fw-bold">Teléfono</p>
+            <p><i class="fa-solid fa-phone px-4"></i>+34 625491044</p>
 
+            <p class="contact-title px-2 fw-bold">Correo electrónico</p>
+            <p><i class="fa-solid fa-envelope px-4"></i>transconcepcion18@gmail.com</p>
+
+            <p class="contact-title px-2 fw-bold">Ubicación</p>
+            <p><i class="fa-solid fa-location-dot px-4"></i>C/MARATÓN 4 NAVE 2 DE ALMENDRALEJO 06200</p>
+            <iframe class="map mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1556.9027356124386!2d-6.412517350730514!3d38.69931246804464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd16a763b7371987%3A0xe7550786dcdb3559!2sC.%20Maraton%204%2C%2006200%2C%20Badajoz!5e0!3m2!1ses!2ses!4v1753343047245!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
         <div>
-            <h2>Transporte Concepción</h2>
+            <h2 class="w-100 text-center">Transporte Concepción</h2>
             <p>© 2025 Transporte Mejías. Todos los derechos reservados</p>
         </div>
-        <div>
-            <div>
+        <div class="w-100">
+            <div class="w-100 d-flex align-items-center justify-content-center gap-5 mb-3">
                 <a href="">Inicio</a>
                 <a href="">Nuestra actividad</a>
                 <a href="">Contacto</a>
             </div>
-            <div>
+            <div class="w-100 d-flex align-items-center justify-content-center gap-5">
                 <a href="">Aviso legal</a>
                 <a href="">Política de privacidad</a>
             </div>
