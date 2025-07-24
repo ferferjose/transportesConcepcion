@@ -101,11 +101,10 @@ a{
 .container{
     max-width: 90%;
 }
-#carouselExampleIndicators .carousel-item img {
-  width: 90%;            /* ya lo tienes con w-100, pero por si acaso */
-  aspect-ratio: 16 / 9;   /* mantiene formato horizontal */
-  object-fit: cover;      /* recorta sobrante mientras llena el cuadro */
-  object-position: center;/* centra el recorte */
+#carouselExampleIndicators .carousel-item img {            
+  aspect-ratio: 16 / 9;   
+  object-fit: cover;      
+  object-position: center;
 }
 .map{
     width: 100%;
