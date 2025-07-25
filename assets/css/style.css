@@ -5,10 +5,12 @@ body{
 }
 
 nav{
-    background-color: white !important;
-    color: #1a1a1a;
+    background-color: #B00020 !important;
     border: none;
     border-bottom: 1px solid #1a1a1a2c;
+}
+nav a{
+    color: white !important;
 }
 h1{
     width: 100%;
@@ -102,9 +104,9 @@ a{
     max-width: 90%;
 }
 #carouselExampleIndicators .carousel-item img {            
-  aspect-ratio: 16 / 9;   
-  object-fit: cover;      
-  object-position: center;
+    aspect-ratio: 16 / 9;   
+    object-fit: cover;      
+    object-position: center;
 }
 .map{
     width: 100%;
