@@ -168,7 +168,7 @@ a{
     border-radius: 9px;
 }
 .telephone{
-    color: #1a1a1a;
+    color: #1a1a1a !important;
 }
 
 footer{
