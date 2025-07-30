@@ -21,7 +21,7 @@
                     data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -36,7 +36,7 @@
                         Nuestra actividad
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="index.html#whoWeAre">¿Quienes somos?</a></li>
+                        <li><a class="dropdown-item " href="index.html#whoWeAre">¿Quienes somos?</a></li>
                         <li><a class="dropdown-item" href="index.html#ourShip">Nuestra flota</a></li>
                         <li><a class="dropdown-item" href="index.html#gallery">Galería</a></li>
                     </ul>
@@ -69,16 +69,24 @@
                 </p>
             </article>
             <article class="mb-4">
-                <h3 id="ourShip">Nuestra flota</h3>
-                <p>
-                    Contamos con una flota de camiones nuevos, equipados con la última tecnología en seguridad y eficiencia, para garantizar un servicio.
-                </p>
-                <p>
-                    Disponemos de un almacén logístico para cargas y descargas con capacidad de almacenamiento temporal.
-                </p>
-                <p>
-                    Además, contamos con un torito (carretilla elevadora) propio para agilizar y asegurar las operaciones de carga y descarga.
-                </p>
+                <div class="d-flex flex-column flex-lg-row align-items-start justify-content-between pe-4">
+                    <div>
+                        <h3 id="ourShip">Nuestra flota</h3>
+                        <p>
+                            Contamos con una flota de camiones nuevos, equipados con la última tecnología en seguridad y eficiencia, para garantizar un servicio.
+                        </p>
+                        <p>
+                            Disponemos de un almacén logístico para cargas y descargas con capacidad de almacenamiento temporal.
+                        </p>
+                        <p>
+                            Además, contamos con un torito (carretilla elevadora) propio para agilizar y asegurar las operaciones de carga y descarga.
+                        </p>
+                    </div>
+                    <div class="imgContainer mx-auto">
+                        <img class="ourShipImg" src="assets/img/torito.jpeg" alt="Carretilla elevadora">
+                    </div>
+                </div>
+                
             </article>
             <article class="mb-4">
                 <h3>Compromiso por el cliente</h3>
@@ -105,22 +113,30 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
+                                <img src="assets/img/FrontalTMejias.jpeg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
                                 <img src="assets/img/camionNieve2.jpeg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/camionNieve.jpeg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/img/camionDeFrente.jpeg" class="d-block w-100" alt="...">
+                                <img src="assets/img/Gondola.jpeg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/camionDeFrente22.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="assets/img/tresCamiones.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/gondola2.jpeg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -145,7 +161,7 @@
             <p><i class="fa-solid fa-envelope px-4"></i>transconcepcion18@gmail.com</p>
 
             <p class="contact-title px-2 fw-bold">Ubicación</p>
-            <p><i class="fa-solid fa-location-dot px-4"></i>C/MARATÓN 4 NAVE 2 DE ALMENDRALEJO 06200</p>
+            <p><i class="fa-solid fa-location-dot px-4"></i>C/MARATÓN 4, NAVE 2, ALMENDRALEJO 06200, BADAJOZ, EXTREMADURA, ESPAÑA</p>
             <iframe class="map mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1556.9027356124386!2d-6.412517350730514!3d38.69931246804464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd16a763b7371987%3A0xe7550786dcdb3559!2sC.%20Maraton%204%2C%2006200%2C%20Badajoz!5e0!3m2!1ses!2ses!4v1753343047245!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>

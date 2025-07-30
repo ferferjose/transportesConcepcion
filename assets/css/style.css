@@ -9,7 +9,21 @@ nav{
     border: none;
     border-bottom: 1px solid #1a1a1a2c;
 }
+
 nav a{
+    color: white !important;
+}
+.dropdown-menu .dropdown-item{
+    color: #1a1a1a !important;
+}
+.dropdown-menu .dropdown-item:focus{
+    color: white !important;
+    background-color: #B00020;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B0002070;
+}
+.navbar-toggler-icon{
     color: white !important;
 }
 h1{
@@ -103,10 +117,46 @@ a{
 .container{
     max-width: 90%;
 }
+.imgContainer {
+    background-color: #f8f1e4;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+}
+.ourShipImg {
+    width: 250px;
+    border-radius: 10px;
+    height: 160px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
+@media (max-width: 992px) {
+    .ourShipImg {
+        width: 400px;
+        height: auto;
+    }
+    .imgContainer {
+        background-color: white;
+        padding: 10px;
+        border-radius: 12px;
+        border: 1px solid white;
+        text-align: center;
+    }
+}
+@media (max-width: 762px) {
+    .ourShipImg {
+        width: 80%;
+    }
+}
 #carouselExampleIndicators .carousel-item img {            
     aspect-ratio: 16 / 9;   
     object-fit: cover;      
     object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .map{
     width: 100%;
