@@ -167,8 +167,13 @@ a{
     border: 0;
     border-radius: 9px;
 }
-.telephone{
+.telephone a,
+.telephone a:link,
+.telephone a:visited,
+.telephone a:hover,
+.telephone a:active {
     color: #1a1a1a !important;
+    text-decoration: none !important;
 }
 
 footer{
