@@ -5,7 +5,7 @@ body{
 }
 
 nav{
-    background-color: #B00020 !important;
+    background-color: #005FBA !important;
     border: none;
     border-bottom: 1px solid #1a1a1a2c;
 }
@@ -18,10 +18,10 @@ nav a{
 }
 .dropdown-menu .dropdown-item:focus{
     color: white !important;
-    background-color: #B00020;
+    background-color: #005FBA;
 }
 .dropdown-menu .dropdown-item:hover{
-    background-color: #B0002070;
+    background-color: #005FBA70;
 }
 .navbar-toggler-icon{
     color: white !important;
@@ -40,7 +40,7 @@ h1{
 h2{
     font-weight: 700;
     font-size: 2.75rem;
-    color: #B00020;
+    color: #005FBA;
 }
 h3{
     font-weight: 700;
@@ -56,7 +56,7 @@ h3{
     h2{
         font-weight: 700;
         font-size: 2.25rem;
-        color: #B00020;
+        color: #005FBA;
     }
     h3{
         font-weight: 700;
@@ -99,7 +99,7 @@ a{
 }
 .red-btn{
     color: white;
-    background-color: #B00020;
+    background-color: #005FBA;
     padding: 1rem 4rem;
     border-radius: 9px;
     font-size: 1.7rem;
@@ -172,7 +172,7 @@ a{
 }
 
 footer{
-    background-color: #B00020;
+    background-color: #005FBA;
     color: white;
     padding: 3rem 2rem;
     display: flex;
